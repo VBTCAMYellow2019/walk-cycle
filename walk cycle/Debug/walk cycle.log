@@ -1,0 +1,14 @@
+﻿Build started 2/6/2019 9:25:51 AM.
+     1>Project "Z:\CGraphics\walk cycle\walk cycle\walk cycle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"Z:\SDL2\SDL2-2.0.9\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\CGraphics\walk cycle\Debug\walk cycle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"Z:\SDL2\SDL2-2.0.9\lib\x64" SDl2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\CGraphics\walk cycle\Debug\walk cycle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\CGraphics\walk cycle\Debug\walk cycle.lib" /MACHINE:X86 Debug\Source.obj
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
+     1>Z:\CGraphics\walk cycle\Debug\walk cycle.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "Z:\CGraphics\walk cycle\walk cycle\walk cycle.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.98
