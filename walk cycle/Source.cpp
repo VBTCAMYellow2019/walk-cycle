@@ -29,7 +29,7 @@ int main(int argc, char*argv[])
 		SDL_Renderer * renderer = SDL_CreateRenderer(window , -1, 0);
 		
 		////-------- image 1
-		SDL_Surface * image1 = SDL_LoadBMP("placeholder");
+		SDL_Surface * image1 = SDL_LoadBMP("placeholder");  //http://gigi.nullneuron.net/gigilabs/loading-images-in-sdl2-with-sdl_image/
 		SDL_Texture *texture = SDL_CreateTextureFromSurface(renderer, image1);
 		SDL_RenderCopy(renderer, texture, NULL, NULL);
 		SDL_RenderPresent(renderer);
@@ -41,7 +41,6 @@ int main(int argc, char*argv[])
 		SDL_RenderCopy(renderer, texture2, NULL, NULL);
 		SDL_RenderPresent(renderer); 
 		SDL_Delay(20000);
-
 
 
 

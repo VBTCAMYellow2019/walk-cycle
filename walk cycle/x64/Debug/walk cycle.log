@@ -1,13 +1,13 @@
-﻿Build started 2/6/2019 10:02:58 AM.
-     1>Project "Z:\CGraphics\walk cycle\walk cycle\walk cycle.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/11/2019 9:53:00 AM.
+     1>Project "Z:\SDL\walk-cycle\walk cycle\walk cycle.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"Z:\SDL2\SDL2-2.0.9\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"Z:\SDL\SDL2-2.0.9\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
          Source.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\CGraphics\walk cycle\x64\Debug\walk cycle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"Z:\SDL2\SDL2-2.0.9\lib\x64" SDl2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\CGraphics\walk cycle\x64\Debug\walk cycle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\CGraphics\walk cycle\x64\Debug\walk cycle.lib" /MACHINE:X64 x64\Debug\Source.obj
-         walk cycle.vcxproj -> Z:\CGraphics\walk cycle\x64\Debug\walk cycle.exe
-     1>Done Building Project "Z:\CGraphics\walk cycle\walk cycle\walk cycle.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\SDL\walk-cycle\x64\Debug\walk cycle.exe" /INCREMENTAL /NOLOGO /LIBPATH:"Z:\SDL\SDL2-2.0.9\lib\x64" SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\SDL\walk-cycle\x64\Debug\walk cycle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\SDL\walk-cycle\x64\Debug\walk cycle.lib" /MACHINE:X64 x64\Debug\Source.obj
+         walk cycle.vcxproj -> Z:\SDL\walk-cycle\x64\Debug\walk cycle.exe
+     1>Done Building Project "Z:\SDL\walk-cycle\walk cycle\walk cycle.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.07
+Time Elapsed 00:00:03.59
